@@ -8,7 +8,7 @@ from setuptools import setup, find_packages
 version = '0.1.0'
 
 
-print('installing packages:{:!s}'.format(find_packages()))
+print('installing packages:{!s}'.format(find_packages()))
 
 setup(
     packages=find_packages(),
